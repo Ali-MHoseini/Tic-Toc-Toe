@@ -1,0 +1,28 @@
+
+.App {
+  text-align: center;
+}
+.inputs {
+  width: 100%;
+  background-color: transparent;
+  height:4rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: all 0.2s ease-out;
+}
+.buttons {
+  background-color:transparent;
+  width: 7rem;
+  height: 2rem;
+  align-self: center;
+  border-radius:0.5rem;
+  color:white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.buttons:hover {
+  background-color: white;
+  color:orange;
+}
+
