@@ -1,6 +1,9 @@
 import './App.css';
 import {useState,useRef} from "react";
 import Modal from './Components/Modal/Modal'
+import Header from './Components/Layouts/Header/Header'
+import Footer from "./Components/Layouts/Footer/Footer";
+import Box from './Components/Box/Box'
 
 function App() {
   const inpElement = useRef('');
@@ -36,7 +39,11 @@ function App() {
            <h3>Enter Second Player Name</h3>
            <input type="text"  className='inputs' value={playerSecondName} placeholder='Enter Name...' onChange={(e)=>ChangeNamePlayerSecond(e.target.value)} />
            <button className='buttons' onClick={settingModal} >Submit</button>
-         </Modal>:alert("OK"))
+         </Modal>:<div>
+           <Header />
+           <Box />
+           <Footer />
+         </div>)
         }
       </div>
   );

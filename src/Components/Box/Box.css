@@ -1,0 +1,23 @@
+.container-box{
+    background-color: #FFE79E;
+    width: 315px;
+    height: 315px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3 , fit-content);
+    gap: 5px;
+    border: 2px solid #FFE79E;
+    justify-content: center;
+    align-content: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+.box{
+    cursor: pointer;
+}
+.box:hover{
+    border: 1px solid blueviolet;
+}

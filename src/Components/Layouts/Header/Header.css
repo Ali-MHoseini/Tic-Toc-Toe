@@ -1,0 +1,9 @@
+.header-box{
+    background-color: #FFE79E;
+    width: 318px;
+    height: 50px;
+    text-align: center;
+}
+.restart{
+    cursor: pointer;
+}
