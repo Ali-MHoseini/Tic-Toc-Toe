@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css";
 
 
-export default function Footer() {
+export default function Footer({isDark}) {
 
   const [counter, setCounter] = React.useState(60);
 
@@ -14,7 +14,7 @@ export default function Footer() {
   }, [counter]);
 
   return (
-    <div className="footer-box">
+    <div className="footer-box" style={{backgroundColor:isDark===true?'#0EF0FF':'#FFE79E'}}>
         <span className='Timer'>Countdown: {counter}</span>
     </div>
   )

@@ -10,7 +10,7 @@ function App() {
   const [playerOneName,setPlayerOneName] = useState('');
   const [playerSecondName,setPlayerSecondName] = useState('');
   const [modalState,setModalState] = useState(0)
-
+  const [darkTheme,setDarkTheme] = useState(false);
   const settingModal = ()=> {
     if(inpElement.current.innerHTML === '') {
       alert('Please Set a Name')
@@ -40,9 +40,9 @@ function App() {
            <input type="text"  className='inputs' value={playerSecondName} placeholder='Enter Name...' onChange={(e)=>ChangeNamePlayerSecond(e.target.value)} />
            <button className='buttons' onClick={settingModal} >Submit</button>
          </Modal>:<div>
-           <Header />
-           <Box />
-           <Footer />
+           <Header ChangeTheme={()=>setDarkTheme(!darkTheme)} isDark={darkTheme} />
+           <Box  isDark={darkTheme} />
+           <Footer isDark={darkTheme} />
          </div>)
         }
       </div>
