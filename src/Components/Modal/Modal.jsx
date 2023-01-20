@@ -9,7 +9,7 @@ const StyledModal = styled.div`
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   position: fixed;
   top: 25%;
   left: 35%;
