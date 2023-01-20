@@ -60,7 +60,7 @@ function App() {
           </button>
         </Modal>
       ) : (
-        <div>
+        <div className="main-box-container">
           <Header
             ChangeTheme={() => setDarkTheme(!darkTheme)}
             isDark={darkTheme}

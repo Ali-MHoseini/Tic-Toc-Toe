@@ -1,17 +1,17 @@
 .container-box{
-    width: 315px;
-    height: 315px;
+    width: 40rem;
+    height: 38rem;
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 10rem);
     grid-template-rows: repeat(3 , fit-content);
-    gap: 5px;
+    gap: 3rem;
     border: 2px solid #FFE79E;
     justify-content: center;
     align-content: center;
 }
 div{
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     background-color: #fff;
 }
 .box{
