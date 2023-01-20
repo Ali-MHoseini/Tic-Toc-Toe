@@ -1,6 +1,8 @@
-.footer-box{
-    background-color: #FFE79E;
-    width: 40.2rem;
-    height: 50px;
-    text-align: center;
+.footer-box {
+  background-color: #ffe79e;
+  width: 40.2rem;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
