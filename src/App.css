@@ -29,4 +29,23 @@
 .main-box-container{
   padding-left: 25rem;
 }
-
+.img-selector{
+  width: 20px;
+  height: 20px;
+}
+.select{
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.button-selector{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.button-selector:hover{
+  background-color: rgb(227, 209, 168);
+}
